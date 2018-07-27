@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    display: block;
+	margin: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+body {
+    padding-top: 60px;
+    font-family: OpenSans-Regular;
+}

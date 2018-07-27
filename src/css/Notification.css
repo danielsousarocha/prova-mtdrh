@@ -1,0 +1,30 @@
+.notification {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #eee;
+    color: #fff;
+    position: fixed;
+    right: 15px;
+    opacity: 0;
+    z-index: 2;
+    animation: fadeIn forwards linear 0.5s;
+}
+
+.notification.success {
+    background-color: var(--success-color);
+}
+
+.notification.error {
+    background-color: var(--error-color);
+}
+
+
+@media (max-width: 420px) {
+    .notification {
+        top: 85px;
+    }
+}
+
+@keyframes fadeIn {
+    to { opacity: 1 }
+}

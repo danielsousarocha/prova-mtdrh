@@ -1,0 +1,37 @@
+.header {
+    background-color: #ddd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+}
+
+.header li {
+    display: flex;
+    margin: 0 10px;
+}
+
+.header a {
+    font-family: OpenSans-SemiBold;
+    display: block;
+    height: 100%;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color linear 0.2s;
+    color: var(--main-text-color);
+}
+
+.header a:hover,
+.header a:focus,
+.header a:active {
+    background-color: #eee;
+    color: #d33;
+    transition: background-color linear 0.2s;
+}

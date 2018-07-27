@@ -1,0 +1,48 @@
+form {
+    margin: 20px 0;
+}
+
+.create-form {
+    display: inline-block;
+    width: 100%;
+    margin: 10px;
+    border: 1px solid var(--border-color);
+    padding: 10px;
+}
+
+.form-group {
+    display: block;
+    margin: 10px 0;
+}
+
+.form-group .btn {
+    margin-left: auto;
+    display: block;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    display: block;
+    padding: 10px 5px;
+    height: 42px;
+    margin: 5px 0 10px;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+input:active,
+select:active,
+textarea:active {
+    border-color: lightblue;
+    outline: 1px solid lightblue;
+    box-shadow: 0 0 1px 1px lightblue;
+}
+
+textarea {
+    height: auto;
+}
